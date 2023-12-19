@@ -28,6 +28,7 @@ PASSO A PASSO PROJETO
 16 - { git remote add origin <link-do-repositorio>  (SÓ USA UMA VEZ)   ("origin" --> Apelido.Repositório)
 17 - { git push -U origin main  ("origin"-->Apelido.Repositório)
 18 - Fazer login no GitHub / Autorizar credenciais
+18 - Ou fazer processo do video a seguir. https://www.youtube.com/watch?v=s-CN4RaNq8A
 19 - Dar refresh na página / Visualizar primeiro commit no repositório
 
 20 - Após fazer alterações necessárias ou continuar o projeto
