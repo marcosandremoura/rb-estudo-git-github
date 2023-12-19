@@ -25,7 +25,7 @@ PASSO A PASSO PROJETO
 13 - Ir para: Your profile / Repositories / New / Preencher: Repository name e Description / Create repository
 14 - Copiar link do repositório (repositories / entra no repositorio / code / copiar)
 15 - Ir para o Git Bash
-16 - { git remote add origin <link-do-repositorio>  (SÓ USA UMA VEZ)   ("origin"-->Apelido.Repositório)
+16 - { git remote add origin <link-do-repositorio>  (SÓ USA UMA VEZ)   ("origin" --> Apelido.Repositório)
 17 - { git push -U origin main  ("origin"-->Apelido.Repositório)
 18 - Fazer login no GitHub / Autorizar credenciais
 19 - Dar refresh na página / Visualizar primeiro commit no repositório
