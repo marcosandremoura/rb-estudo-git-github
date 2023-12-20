@@ -2,10 +2,7 @@
 Projeto ensinando a usar git e github
 ======================================
 
-Isso é uma alteração
 
-
-20:12
 
 
 PASSO A PASSO PROJETO
@@ -26,7 +23,7 @@ PASSO A PASSO PROJETO
 14 - Copiar link do repositório (repositories / entra no repositorio / code / copiar)
 15 - Ir para o Git Bash
 16 - { git remote add origin <link-do-repositorio>  (SÓ USA UMA VEZ)   ("origin" --> Apelido.Repositório)
-17 - { git push -U origin main  ("origin"-->Apelido.Repositório)
+17 - { git push -U origin <main>  ("origin" --> Apelido.Repositório)
 18 - Fazer login no GitHub / Autorizar credenciais
 18 - Ou fazer processo do video a seguir. https://www.youtube.com/watch?v=s-CN4RaNq8A
 19 - Dar refresh na página / Visualizar primeiro commit no repositório
@@ -41,9 +38,10 @@ PASSO A PASSO PROJETO
 26 - { git checkout -b "<novo-botao>"
 27 - { git add .
 28 - { git commit -m "<novo botão>"
-29 - { git push origin <novo-botao>   ("origin"-->Apelido.Repositório)
-30 - { 
-31 - 
-32 - 
+29 - { git push origin <novo-botao>   ("origin" --> Apelido.Repositório)
+30 - { git checkout main
+31 - { git merge <novo-botao>
+32 - { git push origin main
+33 - 
 
 
