@@ -14,11 +14,11 @@ CURSO BÁSICO ENSINANDO A USAR GIT E GITHUB
 PASSO A PASSO DO APRENDIZADO
 ----------------------------
 
-01 - Criar uma pasta no computador
-02 - Abrir a pasta; Clicar com botão direito na pasta; clicar em "quick actions"; clicar em "open in vscode"
+01 - Criar uma pasta no computador onde vai ficar o projeto
+02 - Clicar na pasta com o botão direito na pasta; clicar em "quick actions"; clicar em "open in vscode"
 03 - Criar arquivo "Readme.md" 
 04 - Escrever o titulo do projeto na primeira linha do arquivo "Readme.md"
-05 - Ir na pasta; clicar com botão direito dentro da pasta; clicar em "services"; clicar em "new terminal at folder"
+05 - Ir na pasta do projeto; clicar com botão direito dentro da pasta; clicar em "services"; clicar em "new terminal at folder"
 06 - { git branch -M "main" (SÓ SE TIVER NA MASTER) 
 07 - { git init
 08 - { git add .   [ou]    git add <nome-arquivo-1>  /  git add <nome-arquivo-2>  /  .......
@@ -26,8 +26,8 @@ PASSO A PASSO DO APRENDIZADO
 10 - { git commit -m "primeiro commit"
 11 - { git status
 12 - Entrar no GitHub
-13 - Clicar em your profile; clicar em repositories; clicar em new; 
-14 - Preencher repository name e description; clicar em create repository
+13 - Clicar em "your profile"; clicar em "repositories"; clicar em "new"; 
+14 - Preencher repository name e description; clicar em "create repository"
 15 - Copiar link do repositório (repositories / entra no repositorio / code / copiar)
 16 - Ir para o Git Bash
 17 - { git remote add origin <link-do-repositorio>  (SÓ USA UMA VEZ)   ("origin" --> Apelido.Repositório)
@@ -61,6 +61,18 @@ CRIANDO UM NOVO BOTÃO
 13 - { git checkout main
 14 - { git merge <novo-botao>
 15 - { git push origin main
+
+
+PUXAR DO GITHUB PARA MINHA MÁQUINA AS ATUALIZAÇÕES FEITA POR OUTROS EM UMA BRANCH ESPECÍFICA NO MEU PROJETO/REPOSITÓRIO
+01 - Ir na pasta do projeto; clicar com botão direito dentro da pasta; clicar em "services"; clicar em "new terminal at folder"
+02 - { git checkout <nome-da-branch-que-foi-feita-as-atualizações>
+03 - { git pull origin <nome-da-branch-que-foi-feita-as-atualizações>
+
+
+PUXAR DO GITHUB PARA MINHA MÁQUINA TODAS AS NOVAS ATUALIZAÇÕES QUE FORAM FEITAS POR OUTROS NO MEU PROJETO/REPOSITÓRIO
+01 - 01 - Ir na pasta do projeto; clicar com botão direito dentro da pasta; clicar em "services"; clicar em "new terminal at folder"
+02 - { git checkout main
+03 - { git fetch
 
 
 CLONAR UM REPOSITÓRIO
