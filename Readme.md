@@ -19,19 +19,19 @@ PASSO A PASSO DO APRENDIZADO
 03 - Criar arquivo "Readme.md" 
 04 - Escrever o titulo do projeto na primeira linha do arquivo "Readme.md"
 05 - Ir na pasta; clicar com botão direito dentro da pasta; clicar em "services"; clicar em "new terminal at folder"
-06 - { git init
-07 - { git add .   [ou]    git add <nome-arquivo-1>  /  git add <nome-arquivo-2>  /  .......
-08 - { git status
-09 - { git commit -m "primeiro commit"
-10 - { git status
-11 - { git branch -M "main"
+06 - { git branch -M "main" (SÓ SE TIVER NA MASTER) 
+07 - { git init
+08 - { git add .   [ou]    git add <nome-arquivo-1>  /  git add <nome-arquivo-2>  /  .......
+09 - { git status
+10 - { git commit -m "primeiro commit"
+11 - { git status
 12 - Entrar no GitHub
 13 - Clicar em your profile; clicar em repositories; clicar em new; 
 14 - Preencher repository name e description; clicar em create repository
 15 - Copiar link do repositório (repositories / entra no repositorio / code / copiar)
 16 - Ir para o Git Bash
 17 - { git remote add origin <link-do-repositorio>  (SÓ USA UMA VEZ)   ("origin" --> Apelido.Repositório)
-18 - { git push -U origin <main>  ("origin" --> Apelido.Repositório)
+18 - { git push -u origin <main>  ("origin" --> Apelido.Repositório)
 19 - Fazer login no GitHub, Autorizar credenciais OU fazer processo do video a seguir. https://www.youtube.com/watch?v=s-CN4RaNq8A
 20 - Dar refresh na página; visualizar primeiro commit no repositório
 
