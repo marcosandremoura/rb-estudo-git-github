@@ -18,22 +18,28 @@ PASSO A PASSO DO APRENDIZADO
 02 - Clicar na pasta com o botão direito na pasta; clicar em "quick actions"; clicar em "open in vscode"
 03 - Criar arquivo "Readme.md" 
 04 - Escrever o titulo do projeto na primeira linha do arquivo "Readme.md"
-05 - Ir na pasta do projeto; clicar com botão direito dentro da pasta; clicar em "services"; clicar em "new terminal at folder"
+05 - Ir na pasta do projeto; clicar com botão direito na pasta; clicar em "services"; clicar em "new terminal at folder"
 06 - { git branch -M "main" (SÓ SE TIVER NA MASTER) 
-07 - { git init
-08 - { git add .   [ou]    git add <nome-arquivo-1>  /  git add <nome-arquivo-2>  /  .......
-09 - { git status
-10 - { git commit -m "primeiro commit"
-11 - { git status
-12 - Entrar no GitHub
-13 - Clicar em "your profile"; clicar em "repositories"; clicar em "new"; 
-14 - Preencher repository name e description; clicar em "create repository"
-15 - Copiar link do repositório (repositories / entra no repositorio / code / copiar)
-16 - Ir para o Git Bash
-17 - { git remote add origin <link-do-repositorio>  (SÓ USA UMA VEZ)   ("origin" --> Apelido.Repositório)
-18 - { git push -u origin <main>  ("origin" --> Apelido.Repositório)
-19 - Fazer login no GitHub, Autorizar credenciais OU fazer processo do video a seguir. https://www.youtube.com/watch?v=s-CN4RaNq8A
-20 - Dar refresh na página; visualizar primeiro commit no repositório
+07 - { git config --global user.name "<nome-do-usuário>"  (SÓ SE NÃO TIVER CADASTRADO AINDA)
+08 - { git config --global user.email "<email-do-usuário>"  (SÓ SE NÃO TIVER CADASTRADO AINDA)
+09 - { git init
+10 - { touch .gitignore
+11 - Ir na pasta do projeto; procurar o arquivo ".gitignore"; 
+12 - clicar com botão direito no arquivo ".gitignore"; clicar em abrir com "notepad"
+13 - Escrever as "pastas/" e "arquivos" que não devem entrar no controle de versão.
+14 - { git add .   [ou]    git add <nome-arquivo-1>  /  git add <nome-arquivo-2>  /  .......
+15 - { git status
+16 - { git commit -m "primeiro commit"
+17 - { git status
+18 - Entrar no GitHub
+19 - Clicar em "your profile"; clicar em "repositories"; clicar em "new"; 
+20 - Preencher repository name e description; clicar em "create repository"
+21 - Copiar link do repositório (repositories / entra no repositorio / code / copiar)
+22 - Ir para o Git Bash
+23 - { git remote add origin <link-do-repositorio>  (SÓ USA UMA VEZ)   ("origin" --> Apelido.Repositório)
+24 - { git push -u origin <main>  ("origin" --> Apelido.Repositório)
+25 - Fazer login no GitHub, Autorizar credenciais OU fazer processo do video a seguir. https://www.youtube.com/watch?v=s-CN4RaNq8A
+26 - Dar refresh na página; visualizar primeiro commit no repositório
 
 
 APÓS ALTERAÇÕES OU CONTINUAÇAO DO PROJETO
@@ -50,17 +56,24 @@ CRIANDO UM NOVO BOTÃO
 02 - Criar arquivo "NovoBotao.html"
 03 - Ir na pasta onde está o projeto; clicar com botão direito na pasta; clicar em "services"; clicar em "new terminal at folder"
 04 - Realizar todo o projeto e após terminar.......
-05 - { git checkout -b "<novo-botao>"
-06 - { git add .
-07 - { git commit -m "<novo botão>"
-08 - { git push origin <novo-botao>   ("origin" --> Apelido.Repositório)
-09 - Após ter feito todas as alterações, terminado o projeto e testado.......
-10 - { git add .
-11 - { git commit -m "<novo botão>"
-12 - { git push origin <novo-botao>   ("origin" --> Apelido.Repositório)
-13 - { git checkout main
-14 - { git merge <novo-botao>
-15 - { git push origin main
+05 - { git checkout main
+06 - { git pull
+07 - { git checkout -b "<novo-botao>"
+08 - { git status
+09 - { git add .
+10 - { git commit -m "<criação novo botão>"
+11 - { git status
+12 - { git push origin <novo-botao>   
+13 - Após ter feito todas as alterações, terminado o projeto e testado.......
+14 - { git status
+15 - { git add .
+16 - { git commit -m "<finalização novo botão>"
+17 - { git status
+18 - { git push origin <novo-botao>  
+19 - { git checkout main
+20 - { git pull
+21 - { git merge <novo-botao>
+22 - { git push  OU  { git push origin main
 
 
 PUXAR DO GITHUB PARA MINHA MÁQUINA AS ATUALIZAÇÕES FEITA POR OUTROS EM UMA BRANCH ESPECÍFICA NO MEU PROJETO/REPOSITÓRIO
