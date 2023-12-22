@@ -69,7 +69,7 @@ PUXAR DO GITHUB PARA MINHA MÁQUINA AS ATUALIZAÇÕES FEITA POR OUTROS EM UMA BR
 03 - { git pull origin <nome-da-branch-que-foi-feita-as-atualizações>
 
 
-PUXAR DO GITHUB PARA MINHA MÁQUINA TODAS AS NOVAS ATUALIZAÇÕES QUE FORAM FEITAS POR OUTROS NO MEU PROJETO/REPOSITÓRIO
+ATUALIZAR O REPOSITÓRIO LOCAL DE ACORDO COM O REPOSITÓRIO REMOTO
 01 - 01 - Ir na pasta do projeto; clicar com botão direito dentro da pasta; clicar em "services"; clicar em "new terminal at folder"
 02 - { git checkout main
 03 - { git fetch
