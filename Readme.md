@@ -19,10 +19,10 @@ PASSO A PASSO DO APRENDIZADO
 03 - Criar arquivo "Readme.md" 
 04 - Escrever o titulo do projeto na primeira linha do arquivo "Readme.md"
 05 - Ir na pasta do projeto; clicar com botão direito na pasta; clicar em "services"; clicar em "new terminal at folder"
-06 - { git branch -M "main" (SÓ SE TIVER NA MASTER) 
-07 - { git config --global user.name "<nome-do-usuário>"  (SÓ SE NÃO TIVER CADASTRADO AINDA)
-08 - { git config --global user.email "<email-do-usuário>"  (SÓ SE NÃO TIVER CADASTRADO AINDA)
-09 - { git init
+06 - { git init
+07 - { git branch -M "main" (SÓ SE TIVER NA MASTER) 
+08 - { git config --global user.name "<nome-do-usuário>"  (SÓ SE NÃO TIVER CADASTRADO AINDA)
+09 - { git config --global user.email "<email-do-usuário>"  (SÓ SE NÃO TIVER CADASTRADO AINDA)
 10 - { touch .gitignore
 11 - Ir na pasta do projeto; procurar o arquivo ".gitignore"; 
 12 - clicar com botão direito no arquivo ".gitignore"; clicar em abrir com "notepad"
