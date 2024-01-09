@@ -1,4 +1,6 @@
 
+
+==========================================
 CURSO BÁSICO ENSINANDO A USAR GIT E GITHUB
 ==========================================
 
@@ -27,31 +29,38 @@ PASSO A PASSO DO APRENDIZADO
 11 - Ir na pasta do projeto; procurar o arquivo ".gitignore"; 
 12 - clicar com botão direito no arquivo ".gitignore"; clicar em abrir com "notepad"
 13 - Escrever as "pastas/" e "arquivos" que não devem entrar no controle de versão.
-14 - { git add .   [ou]    git add <nome-arquivo-1>  /  git add <nome-arquivo-2>  /  .......
-15 - { git status
-16 - { git commit -m "primeiro commit"
-17 - { git status
-18 - Entrar no GitHub
-19 - Clicar em "your profile"; clicar em "repositories"; clicar em "new"; 
-20 - Preencher repository name e description; clicar em "create repository"
-21 - Copiar link do repositório (repositories / entra no repositorio / code / copiar)
-22 - Ir para o Git Bash
-23 - { git remote add origin <link-do-repositorio>  (SÓ USA UMA VEZ)   ("origin" --> Apelido.Repositório)
-24 - { git push -u origin <main>  ("origin" --> Apelido.Repositório)
-25 - Fazer login no GitHub, Autorizar credenciais OU fazer processo do video a seguir. https://www.youtube.com/watch?v=s-CN4RaNq8A
-26 - Dar refresh na página; visualizar primeiro commit no repositório
+14 - { git status
+15 - { git add .   [ou]    git add <nome-arquivo-1>  /  git add <nome-arquivo-2>  /  .......
+16 - { git status
+17 - { git commit -m "primeiro commit"
+18 - { git status
+19 - Entrar no GitHub
+20 - Clicar em "your profile"; clicar em "repositories"; clicar em "new"; 
+21 - Preencher repository name e description; clicar em "create repository"
+22 - Copiar link do repositório (repositories / entra no repositorio / code / copiar)
+23 - Ir para o Git Bash
+24 - { git remote add origin <link-do-repositorio>  (SÓ USA UMA VEZ)   ("origin" --> Apelido.Repositório)
+25 - { git status
+26 - { git push -u origin <main>  ("origin" --> Apelido.Repositório)
+27 - Fazer login no GitHub, Autorizar credenciais OU fazer processo do video a seguir. https://www.youtube.com/watch?v=s-CN4RaNq8A
+28 - Dar refresh na página; visualizar primeiro commit no repositório
+
 
 
 APÓS ALTERAÇÕES OU CONTINUAÇAO DO PROJETO
+-----------------------------------------
 01 - Criar os arquivos onde será desenvolvido o projeto (index.html, style.css, novobotao.html)
-02 - git status
+02 - { git status
 03 - { git add .   [ou]    git add <nome-arquivo-1>  E/OU  git add <nome-arquivo-2>  /  e por ai vai.....  
 04 - { git status
 05 - { git commit -m "<texto-informando-as-alterações>"
-06 - { git push origin main  ("origin"-->Apelido.Repositório)
+06 - { git status
+07 - { git push origin main  ("origin"-->Apelido.Repositório)
+
 
 
 CRIANDO UM NOVO BOTÃO
+---------------------
 01 - Ir na pasta onde está o projeto; clicar com botão direito na pasta; clicar em "quick actions"; clicar em "open in vscode"
 02 - Criar arquivo "NovoBotao.html"
 03 - Ir na pasta onde está o projeto; clicar com botão direito na pasta; clicar em "services"; clicar em "new terminal at folder"
@@ -76,19 +85,49 @@ CRIANDO UM NOVO BOTÃO
 22 - { git push  OU  { git push origin main
 
 
-PUXAR DO GITHUB PARA MINHA MÁQUINA AS ATUALIZAÇÕES FEITA POR OUTROS EM UMA BRANCH ESPECÍFICA NO MEU PROJETO/REPOSITÓRIO
+
+
+EDITAR COMMIT E MENSAGEM DO COMMIT COM AMEND
+--------------------------------------------
+https://www.youtube.com/watch?v=C88Bp_j0SqU
+
+
+
+VOLTAR PARA O COMMIT ANTERIOR APAGANDO AS ALTERAÇÕES DO ÚLTIMO 
+COMMIT E MANTENDO O HISTÓRICO DE COMMIT  NO GIT E GITHUB
+--------------------------------------------------------------
+https://www.youtube.com/watch?v=OH3_IJBfNlY
+
+
+
+VOLTAR PARA O COMMIT ANTERIOR MANTENDO AS ALTERAÇÕES DO ÚLTIMO 
+COMMIT, MAS MUDANDO O HISTÓRICO DE COMMIT NO GIT E GITHUB
+--------------------------------------------------------------
+https://www.youtube.com/watch?v=ilZ_1WOgGBs&t=13s
+
+
+
+
+
+PUXAR DO GITHUB PARA MINHA MÁQUINA AS ATUALIZAÇÕES FEITA POR 
+OUTROS EM UMA BRANCH ESPECÍFICA NO MEU PROJETO/REPOSITÓRIO
+-------------------------------------------------------------
 01 - Ir na pasta do projeto; clicar com botão direito dentro da pasta; clicar em "services"; clicar em "new terminal at folder"
 02 - { git checkout <nome-da-branch-que-foi-feita-as-atualizações>
 03 - { git pull origin <nome-da-branch-que-foi-feita-as-atualizações>
 
 
+
 ATUALIZAR O REPOSITÓRIO LOCAL DE ACORDO COM O REPOSITÓRIO REMOTO
+----------------------------------------------------------------
 01 - 01 - Ir na pasta do projeto; clicar com botão direito dentro da pasta; clicar em "services"; clicar em "new terminal at folder"
 02 - { git checkout main
 03 - { git fetch
 
 
+
 CLONAR UM REPOSITÓRIO
+---------------------
 01 - Entrar no perfil que está o repositório que você quer clonar
 02 - Clicar em "Repositories"; clicar no repositório; clicar no botão verde "Code"; Copiar o link "https"
 03 - Criar uma pasta no computador para receber o repositório clonado
@@ -99,7 +138,9 @@ SE QUISER ATUALIZAR NA SUA MÁQUINA O REPOSITÓRIO CLONADO
 02 - { git pull
 
 
+
 FAZER UM PULL REQUEST EM UM REPOSITÓRIO DE ALGUÉM
+-------------------------------------------------
 01 - Entrar no perfil que está o repositório que você quer fazer o pull request
 02 - Clicar em "Repositories"; clicar no repositório que você quer fazer o pull request; clicar no botão "Fork"
 03 - Fazer o Fork do repositório que você quer fazer o pull request
@@ -111,7 +152,10 @@ FAZER UM PULL REQUEST EM UM REPOSITÓRIO DE ALGUÉM
 09 - Fazer comentário informando: qual alteração foi feita; o motivo da alteração; como testa essa alteração
 10 - Clicar em "create pull request"
 
+
+
 ACEITAR UM PULL REQUEST EM UM REPOSITÓRIO MEU
+---------------------------------------------
 01 - Clicar em your profile; 
 02 - Clicar em "Repositories"; clicar no repositório que você deseja; clica em "Pull requests"
 03 - Clicar em um dos pull requests; clicar em "Merge pull request" OU "Close pull request"
